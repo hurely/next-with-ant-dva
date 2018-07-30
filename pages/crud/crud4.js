@@ -1,8 +1,8 @@
 import React from 'react';
-import MyHeader from '../components/MyHeader';
-import axios from '../lib/axios';
-import {bmobConfig} from '../lib/config';
-import urls from '../lib/urls';
+import MyHeader from '../../components/MyHeader';
+import axios from '../../lib/axios';
+import {bmobConfig} from '../../lib/config';
+import urls from '../../lib/urls';
 
 // import '../../static/css/common.css';
 

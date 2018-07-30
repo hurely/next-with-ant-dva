@@ -1,7 +1,7 @@
 import React from 'react';
-import MyHeader from '../components/MyHeader';
-import axios from '../lib/axios';
-import urls from '../lib/urls';
+import MyHeader from '../../components/MyHeader';
+import axios from '../../lib/axios';
+import urls from '../../lib/urls';
 
 import {Table, Button, Divider, Icon} from 'antd';
 import reqwest from 'reqwest';

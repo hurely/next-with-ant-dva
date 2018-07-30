@@ -1,5 +1,5 @@
 import {Table, Input, Button, Popconfirm, Form} from 'antd';
-import MyHeader from '../components/MyHeader';
+import MyHeader from '../../components/MyHeader';
 
 const FormItem = Form.Item;
 const EditableContext = React.createContext();
