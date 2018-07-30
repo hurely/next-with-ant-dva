@@ -1,0 +1,18 @@
+{
+  "presets": [
+    "next/babel"
+  ],
+  "plugins": [
+    [
+      "module-resolver", {
+      "root": ["."],
+      "alias": {
+        "styles": "./styles",
+        "dva":"dva-no-router"
+      },
+      "cwd": "babelrc"
+    }],
+    ["import", { "libraryName": "antd" }]
+  ],
+  "ignore": []
+}

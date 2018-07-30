@@ -1,0 +1,102 @@
+
+*{margin: 0;padding: 0}
+p{background-color: antiquewhite}
+
+#login-demo.login-form {
+  max-width: 300px;
+  margin:100px auto;
+}
+#login-demo .login-form-forgot {
+  float: right;
+}
+#login-demo .login-form-button {
+  width: 100%;
+  height: 40px;
+  margin-top:20px;
+}
+
+#login-demo .ant-input-affix-wrapper{
+  height: 40px;
+}
+.left-nav{
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.body{
+  position: fixed;
+  left: 280px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: calc(100%-280px);
+}
+
+.left-nav,.left-nav .ant-menu{
+  height: 100%;
+}
+
+#__next,#__next div:first-child{
+  height: 100%;
+}
+
+#nprogress .bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+  width: 100%;
+  height: 2px;
+  background: #1890ff;
+}
+#nprogress .spinner {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 2000;
+  display: block;
+}
+#nprogress .spinner-icon {
+  width: 18px;
+  height: 18px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: solid 2px transparent;
+  border-top-color: #1890ff;
+  border-left-color: #1890ff;
+  border-radius: 50%;
+  -webkit-animation: nprogress-spinner .4s linear infinite;
+  animation: nprogress-spinner .4s linear infinite;
+}
+
+
+@-webkit-keyframes nprogress-spinner {
+  0% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0)
+  }
+
+  100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg)
+  }
+}
+
+@keyframes nprogress-spinner {
+  0% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0)
+  }
+
+  100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg)
+  }
+}
