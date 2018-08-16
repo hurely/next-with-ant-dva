@@ -21,6 +21,13 @@ module.exports = withCss({
         test: /\.less$/,
         use: ['babel-loader', 'raw-loader', 'less-loader']
       },
+      {
+        test:/\.js$/,
+        loader: 'babel-loader',
+        options:{
+          plugins: ['transform-decorators-legacy']
+        }
+      }
     );
     return config;
   },
